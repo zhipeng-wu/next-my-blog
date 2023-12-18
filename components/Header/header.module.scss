@@ -1,0 +1,26 @@
+.navBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:60px;
+  background: #fff;
+  .logo{
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 100px;
+  }
+  .navList{
+    .item{
+      margin: 0 20px;
+    }
+    .active{
+      color:#2133a8
+    }
+  }
+  .navLeft{
+    margin-left: 100px;
+    button{
+      margin:0 20px;
+    }
+  }
+}
